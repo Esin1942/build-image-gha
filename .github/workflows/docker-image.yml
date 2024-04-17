@@ -31,5 +31,5 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ${{ secrets.DOCKERUSERNAME }}/tools-image:v1.1
+        tags: ${{ secrets.DOCKERUSERNAME }}/all-tools:v1.1
         file: ./Dockerfile   
